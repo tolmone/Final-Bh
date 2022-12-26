@@ -35,7 +35,7 @@ const Option = styled.option``;
 
 const ProductListScreen = () => {
     return (
-        <Container className="bg-light container">
+        <Container className="bg-light">
             <Title>Products</Title>
             <FilterContainer>
                 <Filter><FilterText>Filter Products:</FilterText>
