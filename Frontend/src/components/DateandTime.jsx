@@ -17,8 +17,6 @@ export default function DateandTime() {
   return (
     <section className="bg-light py-1" id="">
       <div className="container mt-5 mb-5 w-50">
-        <h3 className='mb-3'>Schedule a date and time to collect the items: </h3>
-        <p className='mb-5'>Please select a convenient slot</p>
         <LocalizationProvider dateAdapter={AdapterDayjs}>
           <Stack spacing={3} sx={{ alignItems: "center" }}>
             <DatePicker
